@@ -1,0 +1,18 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+
+# IDE settings
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local testing files
+test_supabase.php
